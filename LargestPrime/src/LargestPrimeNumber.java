@@ -19,6 +19,7 @@ public class LargestPrimeNumber {
 
     public static void main(String[] args) {
         System.out.println(calculatePrime(600851475143L));
+        System.out.println(calculatePrime(13195L));
     }
 
 }
