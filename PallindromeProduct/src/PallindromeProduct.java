@@ -12,13 +12,10 @@ public class PallindromeProduct {
         for (int i = product.length()-1; i >=0; i--) {
             queue.add(product.charAt(i));
         }
-        System.out.println(queue);
         String reverseString = "";
-        System.out.println(product);
         while (!queue.isEmpty()) {
             reverseString = reverseString+queue.remove();
         }
-        System.out.println(reverseString);
         if(reverseString.equals(product)) {
             return true;
         }
@@ -30,8 +27,8 @@ public class PallindromeProduct {
     public static int calculate(){
         int product = -1;
         int maxValue = -1;
-        for(int k = 999; k >=1; k--){
-            for(int j = 999; j >=1; j--){
+        for(int k = 999; k >=900; k--){
+            for(int j = 999; j >=900; j--){
                 product = j * k;
                 if (isPallindrome(Integer.toString(product))){
                     if (product > maxValue){
