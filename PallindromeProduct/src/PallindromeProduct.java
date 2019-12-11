@@ -33,6 +33,7 @@ public class PallindromeProduct {
                 if (isPallindrome(Integer.toString(product))){
                     if (product > maxValue){
                         maxValue = product;
+                        System.out.println(k+"*"+ j+" = "+maxValue);
                     }
                 }
             }
