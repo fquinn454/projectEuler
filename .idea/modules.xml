@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/10001stPrime/10001stPrime.iml" filepath="$PROJECT_DIR$/10001stPrime/10001stPrime.iml" />
       <module fileurl="file://$PROJECT_DIR$/Even Fibonacci Numbers/Even Fibonaci Numbers.iml" filepath="$PROJECT_DIR$/Even Fibonacci Numbers/Even Fibonaci Numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/LargestPrime/LargestPrime.iml" filepath="$PROJECT_DIR$/LargestPrime/LargestPrime.iml" />
       <module fileurl="file://$PROJECT_DIR$/Multiles of 3 and 5/Multiles of 3 and 5.iml" filepath="$PROJECT_DIR$/Multiles of 3 and 5/Multiles of 3 and 5.iml" />
