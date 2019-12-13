@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/PallindromeProduct/PallindromeProduct.iml" filepath="$PROJECT_DIR$/PallindromeProduct/PallindromeProduct.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/projectEuler.iml" filepath="$PROJECT_DIR$/.idea/projectEuler.iml" />
       <module fileurl="file://$PROJECT_DIR$/smallestMultiple/smallestMultiple.iml" filepath="$PROJECT_DIR$/smallestMultiple/smallestMultiple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sumSquareDifference/sumSquareDifference.iml" filepath="$PROJECT_DIR$/sumSquareDifference/sumSquareDifference.iml" />
     </modules>
   </component>
 </project>
