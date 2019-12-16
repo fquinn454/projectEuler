@@ -18,8 +18,12 @@ public class LargestPrimeNumber {
     }
 
     public static void main(String[] args) {
+        long startTime = System.nanoTime();
         System.out.println(calculatePrime(600851475143L));
-        System.out.println(calculatePrime(13195L));
+        long endTime = System.nanoTime();
+        long totalTime = endTime - startTime;
+        System.out.println("Time: "+totalTime/1000000.000+"ms");
+
     }
 
 }

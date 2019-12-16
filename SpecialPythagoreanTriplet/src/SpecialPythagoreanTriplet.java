@@ -9,20 +9,26 @@ Find the product abc.
 */
 
 public class SpecialPythagoreanTriplet {
-    public static void SpecialPythagoreanTriplet(){
+    public static long SpecialPythagoreanTriplet(){
         for(int c = 1000; c > 0; c--){
             for(int b = 1; b<1000; b++){
                 for(int a = 1; a<1000; a++){
                     if(a*a+b*b==c*c && a+b+c == 1000 && a<b && b<c){
-                        System.out.println("a: "+a+" b: "+b+" c: "+c);
-                        System.out.println("Product a*b*c = "+a*b*c);
+                        long product = a*b*c;
+                        return product;
+
                     }
                 }
             }
         }
+        return 0;
     }
 
     public static void main(String[] args) {
-        SpecialPythagoreanTriplet();
+        long startTime = System.nanoTime();
+        System.out.println(SpecialPythagoreanTriplet());
+        long endTime = System.nanoTime();
+        long totalTime = endTime - startTime;
+        System.out.println("Time: "+totalTime/1000000.000+"ms");
     }
 }

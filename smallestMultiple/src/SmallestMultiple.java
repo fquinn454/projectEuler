@@ -23,6 +23,11 @@ public class SmallestMultiple {
     }
 
     public static void main(String[] args) {
+        long startTime = System.nanoTime();
         System.out.println(calculateSmallestMultiple());
+        long endTime = System.nanoTime();
+        long totalTime = endTime - startTime;
+        System.out.println("Time: "+totalTime/1000000.000+"ms");
+
     }
 }
