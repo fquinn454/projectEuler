@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/10001stPrime/10001stPrime.iml" filepath="$PROJECT_DIR$/10001stPrime/10001stPrime.iml" />
       <module fileurl="file://$PROJECT_DIR$/Even Fibonacci Numbers/Even Fibonaci Numbers.iml" filepath="$PROJECT_DIR$/Even Fibonacci Numbers/Even Fibonaci Numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HighlyDivisibleTriangularNumber/HighlyDivisibleTriangularNumber.iml" filepath="$PROJECT_DIR$/HighlyDivisibleTriangularNumber/HighlyDivisibleTriangularNumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/LargestPrime/LargestPrime.iml" filepath="$PROJECT_DIR$/LargestPrime/LargestPrime.iml" />
       <module fileurl="file://$PROJECT_DIR$/LargestProductInAGrid/LargestProductInAGrid.iml" filepath="$PROJECT_DIR$/LargestProductInAGrid/LargestProductInAGrid.iml" />
       <module fileurl="file://$PROJECT_DIR$/LargestProductInASeries/LargestProductInASeries.iml" filepath="$PROJECT_DIR$/LargestProductInASeries/LargestProductInASeries.iml" />
