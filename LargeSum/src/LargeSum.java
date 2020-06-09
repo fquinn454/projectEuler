@@ -104,7 +104,7 @@
 import java.math.BigInteger;
 
 public class LargeSum {
-    public static BigInteger calculateLargeSum(){
+    public static String calculateLargeSum(){
         BigInteger sum = BigInteger.ZERO;
         String[] numbers = {
                 "37107287533902102798797998220837590246510135740250",
@@ -212,10 +212,16 @@ public class LargeSum {
             BigInteger bigInteger = new BigInteger(number);
             sum = sum.add(bigInteger);
         }
-        return sum;
+        String answer = sum.toString().substring(0, 10);
+        return answer;
     }
 
     public static void main(String[] args) {
+        long startTime = System.nanoTime();
         System.out.println(calculateLargeSum());
+        long endTime = System.nanoTime();
+        long totalTime = endTime - startTime;
+        System.out.println("Time: "+totalTime/1000000.000+"ms");
+
     }
 }
